@@ -169,6 +169,51 @@
 }
 
 
+/* Contact Us Section Styling */
+.contact-section {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px; /* Limits width on larger screens */
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff; /* Button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 16px; /* Default font size */
+}
+
+.contact-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.contact-text {
+  margin-top: 15px;
+  color: #555;
+  font-size: 14px; /* Default font size */
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .contact-button {
+    font-size: 14px; /* Smaller font size on mobile */
+    padding: 10px 20px;
+  }
+  .contact-text {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
 /*** Header ***/
 .carousel-caption {
     top: 0;
