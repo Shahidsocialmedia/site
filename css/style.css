@@ -233,11 +233,7 @@
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    display: none;
 }
 
 @media (max-width: 768px) {
